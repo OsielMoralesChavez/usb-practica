@@ -1,0 +1,34 @@
+<svg version="1.1" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Layer_1">
+         <title>Layer 1</title>
+         <path id="svg_1" d="m449.99998,560.99998c-39.50276,0 -71.5,-116.8011 -71.5,-261c0,-144.1989 31.99724,-261 71.5,-261c39.50276,0 71.5,116.8011 71.5,261c0,144.1989 -31.99724,261 -71.5,261z" transform="rotate(-50.3345 450 300)" opacity="undefined" stroke="#000" fill-opacity="0" fill="#f10202"/>
+         <!-- <path id="svg_2" d="m450,561c-39.50276,0 -71.5,-116.8011 -71.5,-261c0,-144.1989 31.99724,-261 71.5,-261c39.50276,0 71.5,116.8011 71.5,261c0,144.1989 -31.99724,261 -71.5,261z" opacity="undefined" stroke="#38fa08" fill="none"/> -->
+         <path id="svg_3" d="m448.00003,562.00002c-39.50276,0 -71.5,-116.8011 -71.5,-261c0,-144.1989 31.99724,-261 71.5,-261c39.50276,0 71.5,116.8011 71.5,261c0,144.1989 -31.99724,261 -71.5,261z" transform="rotate(-89.935 448 301)" opacity="undefined" stroke="#1bf308" fill-opacity="0" fill="#000000"/>
+         <path id="svg_4" d="m450.00003,561.00007c-39.50276,0 -71.5,-116.8011 -71.5,-261c0,-144.1989 31.99724,-261 71.5,-261c39.50276,0 71.5,116.8011 71.5,261c0,144.1989 -31.99724,261 -71.5,261z" transform="rotate(-134.752 450 300)" opacity="undefined" stroke="#f70707" fill-opacity="0" fill="#000000"/>
+        </g>
+
+        <circle id="atomo1" cx="0" cy="0" r="10" fill="darkblue"> 
+            <animateMotion dur="6s" repeatCount="indefinite">
+                <mpath xlink:href="#svg_1" />
+            </animateMotion>
+        </circle>
+
+        <circle id="atomo2" cx="0" cy="0" r="10" fill="#8b0056"> 
+            <animateMotion dur="6s" repeatCount="indefinite">
+                <mpath xlink:href="#svg_3" />
+            </animateMotion>
+        </circle>
+<!--
+        <circle id="atomo3" cx="0" cy="0" r="10" fill="darkblue"> 
+            <animateMotion dur="6s" repeatCount="indefinite">
+                <mpath xlink:href="#svg_3" />
+            </animateMotion>
+        </circle>
+
+        <circle id="atomo4" cx="0" cy="0" r="10" fill="darkblue"> 
+            <animateMotion dur="6s" repeatCount="indefinite">
+                <mpath xlink:href="#svg_4" />
+            </animateMotion>
+        </circle>
+-->
+       </svg>

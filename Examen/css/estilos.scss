@@ -1,0 +1,105 @@
+// ****************************
+// Asignación de colores
+// ****************************
+$principal:#419A1C;
+$secundario:#384452;
+$terciario:#BBFF9C;
+$texto: black;
+
+/*-----------------------------
+Tipografia
+------------------------------*/
+html{
+    font-size: 62.5%; /* Normalizar para REMS */
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2rem;
+    color:$texto;
+}
+/* Principales */
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+/* Display */
+.display-6{
+    font-size: 1.8rem;
+    // font-weight: 700;
+}
+.display-5{
+    font-size: 2rem;
+}
+
+/*-----------------------------
+ESTILOS COLOR PRINCIPAL
+------------------------------*/
+.bg-primary{
+    background-color: $principal !important;
+}
+.text-primary{
+    color: $principal !important;
+}
+
+/*-----------------------------
+ESTILOS COLOR SECUNDARIO
+------------------------------*/
+.bg-secondary{
+    background-color: $secundario !important;
+}
+.text-success{
+    color: $terciario !important;
+}
+
+/*-----------------------------
+ESTILOS ENCABEZADO
+------------------------------*/
+#barras-redes i{
+    color: $terciario;
+    margin-right: 1rem;
+}
+#datos-generales i{
+    font-size: 3rem;    
+    margin-right: 1.4rem;
+}
+#datos-generales span{
+    color:$texto;    
+}
+.navbar-nav li a{
+    color:$terciario !important;
+    padding-right: 3rem !important;
+    font-size: 2.5rem;
+}
+
+.fondo-header{
+    background-image: url(../images/principal01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 35rem;   
+}
+
+#slogan{
+    text-shadow: -6rem -3.5rem .6rem gray;
+}
+
+.card-body i{
+    // color: $principal !important;
+    text-shadow: -.2rem -.4rem .1rem black;
+    font-size: 5rem;
+}
+
+/*-----------------------------
+ESTILOS MAPA
+------------------------------*/
+#map { 
+    height: 25rem; 
+}

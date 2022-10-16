@@ -1,0 +1,118 @@
+/*-----------------------------
+Tipografia
+------------------------------*/
+html {
+  font-size: 62.5%;
+  /* Normalizar para REMS */
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2rem;
+  color: rgb(248, 246, 246);
+  background-color: #000000;
+}
+
+/* Principales */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+/* Display */
+.display-6 {
+  font-size: 1.8rem;
+}
+
+.display-5 {
+  font-size: 2rem;
+}
+
+/*-----------------------------
+ESTILOS COLOR PRINCIPAL
+------------------------------*/
+.bg-primary {
+  background-color: #000000 !important;
+}
+
+.text-primary {
+  color: #FFFFFF !important;
+}
+
+/*-----------------------------
+ESTILOS COLOR SECUNDARIO
+------------------------------*/
+.bg-secondary {
+  background-color: #494a4b !important;
+}
+
+.text-success {
+  color: #f8faf8 !important;
+}
+
+/*-----------------------------
+ESTILOS ENCABEZADO
+------------------------------*/
+#barras-redes i {
+  color: #fefffe;
+  margin-right: 1rem;
+}
+
+#datos-generales i {
+  font-size: 3rem;
+  margin-right: 1.4rem;
+}
+
+#datos-generales span {
+  color: rgb(253, 252, 252);
+}
+
+.navbar-nav li a {
+  color: #f9fcf8 !important;
+  padding-right: 3rem !important;
+  font-size: 2.5rem;
+}
+
+.fondo-header {
+  background-image: url(../images/principal01.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 35rem;
+}
+
+#slogan {
+  text-shadow: -6rem -3.5rem .6rem gray;
+}
+
+.card-body i {
+  text-shadow: -.2rem -.4rem .1rem black;
+  font-size: 5rem;
+}
+
+/*-----------------------------
+ESTILOS MAPA
+------------------------------*/
+#map {
+  height: 30rem;
+
+}
+
+/*-----------------------------
+ESTILOS swiper
+------------------------------*/
+.swiper {
+  height: 45rem;
+
+}

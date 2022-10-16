@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"Canvas","children":[{"type":"blockquote","depth":1,"payload":{"lines":[2,8]},"content":"","children":[{"type":"paragraph","depth":2,"payload":{"lines":[2,8]},"content":"Es una herramienta de gestión estratégica que te<br>\npermiteconocer los aspectos clave de tu negocio: cómo se<br>\nrelacionan y compensan entre sí. Hace visible la<br>\ninfraestructura, la oferta, los clientes y la situación<br>\nfinanciera de tu organización para que logres reconocer las<br>\ndeficiencias y analices el rendimiento."}]},{"type":"heading","depth":1,"payload":{"lines":[10,11]},"content":"Explorar Análisis","children":[{"type":"paragraph","depth":2,"payload":{"lines":[13,15]},"content":"Tambien conocido como Metodología de las 4C<br>\n(Compañia, Categorías, Consumidores, Canales)"}]},{"type":"heading","depth":1,"payload":{"lines":[20,21]},"content":"Ventajas del canvas","children":[{"type":"list_item","depth":2,"payload":{"lines":[22,23]},"content":"Herramientas Prácticas","children":[{"type":"paragraph","depth":3,"payload":{"lines":[23,27]},"content":"Te permite modificar todo lo que quieras<br>\nsobre la misma a medida que vas avanzando<br>\nen su nálisis y también conforme va creciendo<br>\ntu negocio o empresa."}]},{"type":"list_item","depth":2,"payload":{"lines":[28,29]},"content":"Sencillo e iterativo","children":[{"type":"paragraph","depth":3,"payload":{"lines":[29,31]},"content":"El modelo canvas es muy sencillo, el formato de lienzo es<br>\nmuy intuitivo e iterativo."}]},{"type":"list_item","depth":2,"payload":{"lines":[32,33]},"content":"Trabajo en equipo","children":[{"type":"paragraph","depth":3,"payload":{"lines":[33,35]},"content":"Te permite trabajar en equipo: trabajar en grupo de una<br>\nmanera muy interactiva y dinámica."}]},{"type":"list_item","depth":2,"payload":{"lines":[36,37]},"content":"Representación visual","children":[{"type":"paragraph","depth":3,"payload":{"lines":[37,40]},"content":"Visualmente permite ver de manera global todos los<br>\naspectos importantes que configuran un modelo o plan de<br>\nnegocios."}]}]},{"type":"heading","depth":1,"payload":{"lines":[41,42]},"content":"Segmentacion de Mercado","children":[{"type":"blockquote","depth":2,"payload":{"lines":[43,46]},"content":"","children":[{"type":"paragraph","depth":3,"payload":{"lines":[43,46]},"content":"Define los diferentes grupos de personas u<br>\norganizaciones que una proyecto apunta alcanzar y<br>\nservir."}]},{"type":"blockquote","depth":2,"payload":{"lines":[47,49]},"content":"","children":[{"type":"paragraph","depth":3,"payload":{"lines":[47,49]},"content":"Un modelo de negocio puede definir uno o varios<br>\nsegmentos de mercado, ya sean grandes o pequeños."}]}]},{"type":"heading","depth":1,"payload":{"lines":[50,51]},"content":"Propuestas de Valor","children":[{"type":"blockquote","depth":2,"payload":{"lines":[52,55]},"content":"","children":[{"type":"paragraph","depth":3,"payload":{"lines":[52,55]},"content":"Describe el paquete de productos, servicios y/o<br>\nactividades que crean valor para un segmento de<br>\nclientes específico o público específico."}]},{"type":"blockquote","depth":2,"payload":{"lines":[56,59]},"content":"","children":[{"type":"paragraph","depth":3,"payload":{"lines":[56,59]},"content":"Es la razón por la cual los clientes eligen una<br>\nopción en vez de otra. Soluciona un problema del<br>\ncliente o satisface una necesidad de mercado."}]}]},{"type":"heading","depth":1,"payload":{"lines":[60,61]},"content":"Canales","children":[{"type":"paragraph","depth":2,"payload":{"lines":[61,66]},"content":"Describe cómo la empresa/organización/iniciativa se<br>\ncomunica y alcanza a sus segmentos de mercado<br>\npara entregar una propuesta de valor. Son puntos de<br>\ncontacto que juegan un rol importante en la<br>\nexperiencia del cliente."}]},{"type":"heading","depth":1,"payload":{"lines":[67,68]},"content":"Relacion con los Clientes","children":[{"type":"paragraph","depth":2,"payload":{"lines":[69,75]},"content":"Describe los tipos de relaciones que una empresa/<br>\norganización/iniciativa establece con un<br>\nsegmento específico de mercado.<br>\nEl tipo de relación que exige el modelo de negocio<br>\nde una empresa repercute en gran medida en la<br>\nexperiencia global del cliente."}]},{"type":"heading","depth":1,"payload":{"lines":[76,77]},"content":"Fuentes de Ingreso","children":[{"type":"paragraph","depth":2,"payload":{"lines":[78,84]},"content":"Representa el dinero que la empresa/<br>\norganización/iniciativa genera de cada<br>\nsegmento de mercado.<br>\nSi los clientes representan el corazón de un<br>\nmodelo de negocios, las fuentes de ingreso son<br>\nsus arterias."}]},{"type":"heading","depth":1,"payload":{"lines":[85,86]},"content":"Recursos Clave","children":[{"type":"paragraph","depth":2,"payload":{"lines":[87,91]},"content":"Describe los activos más importantes requeridos<br>\npara hacer funcionar el modelo de negocios.<br>\nCada modelo de negocio requiere recursos clave<br>\ndiferentes."}]},{"type":"heading","depth":1,"payload":{"lines":[92,93]},"content":"Actividad clave","children":[{"type":"paragraph","depth":2,"payload":{"lines":[94,96]},"content":"Describe las cosa más importantes que una<br>\nempresa/organización/iniciativa debe hacer para"}]},{"type":"heading","depth":1,"payload":{"lines":[98,99]},"content":"Asociaciones Clave","children":[{"type":"paragraph","depth":2,"payload":{"lines":[100,105]},"content":"Describe la red de proveedores/ socios/alianzas<br>\nque hacen que un modelo de negocios funcione.<br>\nLas empresas/organizaciones crean alianzas para<br>\noptimizar sus modelos de negocios, reducir el<br>\nriesgo o adquirir recursos."}]},{"type":"heading","depth":1,"payload":{"lines":[106,107]},"content":"Estructuras de Costos","children":[{"type":"paragraph","depth":2,"payload":{"lines":[108,113]},"content":"Describe todos los costos incurridos para operar un<br>\nmodelo de negocios.<br>\nCrear y entregar valor, mantener las relaciones con<br>\nlos clientes, y generar ingresos. Todos incurren en<br>\ncostos."}]}]},{})</script>
+</body>
+</html>
