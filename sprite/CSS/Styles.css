@@ -1,0 +1,88 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/bosque.jpg) ;
+    /* Fijar la imagen de fondo este vertical y
+    horizontalmente y centrado */
+  background-position: center center;
+
+  /* Esta imagen no debe de repetirse */
+  background-repeat: no-repeat;
+
+  /* COn esta regla fijamos la imagen en la pantalla. */
+  background-attachment: fixed;
+
+  /* La imagen ocupa el 100% y se reescala */
+  background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+    color: #f8f7f8;
+}
+.container{
+    padding-top: 1rem;
+}
+.animar{
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #1a3155;
+    background-image: url(/sprite_sheet_caminar.png)
+}
+
+.animar:hover{
+    animation: xmov 1s steps(8) infinite;
+    cursor: pointer;
+}
+
+@keyframes xmov{
+    100%{
+        background-position-x:-512px ; 
+    }
+}
+
+.mybridge{
+    width: 1465px;
+    height: 562;
+}
+
+
+.animar2{
+    margin: auto;
+    width: 139px;
+    height: 125px;
+    border: 2px solid #1a3155;
+    background-image: url(/mov2.png);
+}
+
+.animar2:hover{
+    animation: xmov2 1s steps(9) infinite;
+    cursor: pointer;
+}
+
+@keyframes xmov2{
+    100%{
+        background-position-x:-1317px ; 
+    }
+}
+
+.zorro{
+    margin: auto;
+    width: 605px;
+    height: 519px;
+    background-image: url(/zorro.png);
+}
+
+.zorro:hover{
+    animation: zorro 2s steps(9) infinite;
+    cursor: pointer;
+}
+
+@keyframes zorro{
+    100%{
+        background-position-x:-5449px ; 
+    }
+}
+
+
