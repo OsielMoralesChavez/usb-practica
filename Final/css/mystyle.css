@@ -1,0 +1,59 @@
+
+.container{
+    padding-top: 1rem;
+}
+
+.animar{
+    margin: auto;
+    width: 90px;
+    height: 129px;
+    background-image: url(../assets/img/123.png);
+}
+
+.animar:hover{
+    animation: xmov .5s steps(4) infinite;
+    cursor: pointer;
+}
+
+@keyframes xmov{
+    100%{
+        background-position-x:-372px ; 
+    }
+}
+
+.mybridge{
+    width: 372px;
+    height: 129;
+}
+
+
+/* Invisible texto */
+figcaption {
+    display:none; 
+    transition: all .3s;
+  }
+  /* Visible texto */
+  figure:hover > figcaption {
+    display:block;
+    transition: all .3s;
+    transform: translate(67%, -150%);
+    
+  }
+
+  /*parallax*/
+
+  .parallax-viewport {
+    width: 1152px;
+    max-width: 60em;
+    height: 256px;
+    background-color: #070707;
+  /*background:url("imagen/world.jpg")*/
+  }
+  
+  .diagram {
+    margin-top: -0.75em;
+  }
+  
+    small {
+      text-transform: uppercase;
+    }
